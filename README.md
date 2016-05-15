@@ -5,7 +5,7 @@ Home: http://django-grappelli.readthedocs.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: A jazzy skin for the Django Admin-Interface.
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-grappelli-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/django-grappelli-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-grappelli-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-grappelli-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-grappelli-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-grappelli-feedstock/branch/master)
