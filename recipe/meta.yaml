@@ -2,39 +2,40 @@
 {% set sha256 = "cb08e723e4d2a4322fa01035c292051059b055a310491c8886e7b71a20b1d1d9" %}
 
 package:
-    name: django-grappelli
-    version: {{ version }}
+  name: django-grappelli
+  version: {{ version }}
 
 source:
-    fn: django-grappelli-{{ version }}.tar.gz
-    url: https://github.com/sehmaschine/django-grappelli/archive/{{ version }}.tar.gz
-    sha256: {{ sha256 }}
+  fn: django-grappelli-{{ version }}.tar.gz
+  url: https://github.com/sehmaschine/django-grappelli/archive/{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - django
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - django
 
 test:
-    imports:
-        - grappelli
-        - grappelli.templatetags
-        - grappelli.tests
-        - grappelli.views
+  imports:
+    - grappelli
+    - grappelli.templatetags
+    - grappelli.tests
+    - grappelli.views
 
 about:
-    home: http://django-grappelli.readthedocs.org
-    license: BSD 3-Clause
-    summary: 'A jazzy skin for the Django Admin-Interface.'
+  home: http://django-grappelli.readthedocs.org
+  license: BSD 3-Clause
+  license_file: LICENSE
+  summary: 'A jazzy skin for the Django Admin-Interface.'
 
 extra:
-    recipe-maintainers:
-        - kwilcox
-        - ocefpaf
+  recipe-maintainers:
+    - kwilcox
+    - ocefpaf

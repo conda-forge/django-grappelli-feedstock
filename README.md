@@ -11,6 +11,18 @@ Summary: A jazzy skin for the Django Admin-Interface.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-grappelli-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-grappelli-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-grappelli-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-grappelli-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-grappelli-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-grappelli-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-grappelli/badges/version.svg)](https://anaconda.org/conda-forge/django-grappelli)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-grappelli/badges/downloads.svg)](https://anaconda.org/conda-forge/django-grappelli)
+
 Installing django-grappelli
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `django-grappelli` available on yo
 ```
 conda search django-grappelli --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-grappelli-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-grappelli-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-grappelli-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-grappelli-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-grappelli-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-grappelli-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-grappelli/badges/version.svg)](https://anaconda.org/conda-forge/django-grappelli)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-grappelli/badges/downloads.svg)](https://anaconda.org/conda-forge/django-grappelli)
 
 
 Updating django-grappelli-feedstock
