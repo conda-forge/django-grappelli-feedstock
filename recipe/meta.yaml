@@ -1,5 +1,5 @@
-{% set version = "2.9.1" %}
-{% set sha256 = "cb08e723e4d2a4322fa01035c292051059b055a310491c8886e7b71a20b1d1d9" %}
+{% set version = "2.10.1" %}
+{% set sha256 = "dedc5118c2271008937e5e8df37982310af884d29983359da0ebc2292b0b17fd" %}
 
 package:
   name: django-grappelli
@@ -7,11 +7,11 @@ package:
 
 source:
   fn: django-grappelli-{{ version }}.tar.gz
-  url: https://github.com/sehmaschine/django-grappelli/archive/{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/d/django-grappelli/django-grappelli-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
