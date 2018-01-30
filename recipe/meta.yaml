@@ -1,5 +1,5 @@
-{% set version = "2.10.1" %}
-{% set sha256 = "dedc5118c2271008937e5e8df37982310af884d29983359da0ebc2292b0b17fd" %}
+{% set version = "2.11.1" %}
+{% set sha256 = "a0ac5a5f1eef64a0147c3dade02f55667a01aa7e84b93c2e8f6195117b980516" %}
 
 package:
   name: django-grappelli
@@ -12,6 +12,7 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
