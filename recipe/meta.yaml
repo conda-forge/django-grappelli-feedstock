@@ -1,4 +1,4 @@
-{% set version = "2.14.1" %}
+{% set version = "2.13.4" %}
 
 package:
   name: django-grappelli
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-grappelli/django-grappelli-{{ version }}.tar.gz
-  sha256: 1ac962129025bec8cca4647c87d2a538ddb4d481cb218b88042d676d1c726825
+  sha256: be89f14f0d5e8be0bf0dd389dadacd4074beb87c3d6f128d05c4d1e5b20a65a8
 
 build:
   number: 0
@@ -30,7 +30,7 @@ test:
 
 about:
   home: http://django-grappelli.readthedocs.org
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: 'A jazzy skin for the Django Admin-Interface.'
 
