@@ -5,11 +5,9 @@ Home: http://django-grappelli.readthedocs.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-grappelli-feedstock/blob/master/LICENSE.txt)
 
-Summary: A jazzy skin for the Django Admin-Interface.
-
-
+Summary: A jazzy skin for the Django Admin-Interface
 
 Current build status
 ====================
