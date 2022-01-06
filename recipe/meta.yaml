@@ -1,4 +1,4 @@
-{% set version = "2.15.3" %}
+{% set version = "2.15.4" %}
 
 package:
   name: django-grappelli
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-grappelli/django-grappelli-{{ version }}.tar.gz
-  sha256: e21dc664faef6990006c05a6939ee1e2839e13834a338b1f644ea6edb19f68de
+  sha256: 4c85062109fc8bd7e8399a88f146d934c57c8fba9865aa3ecd6392b9bed60ead
 
 build:
   number: 0
