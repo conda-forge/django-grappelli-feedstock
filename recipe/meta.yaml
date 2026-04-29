@@ -1,5 +1,5 @@
 {% set name = "django-grappelli" %}
-{% set version = "4.0.4" %}
+{% set version = "5.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: f332b833e0cbb8519b8ed495f9438fc293d2c0bf24199157f89d81fcf452d892
+  sha256: 404c8480024758b537bed723070c64eef695de557ad470b43161dbff0aa4c642
 
 build:
   noarch: python
