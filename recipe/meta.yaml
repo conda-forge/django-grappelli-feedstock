@@ -1,13 +1,13 @@
 {% set name = "django-grappelli" %}
-{% set version = "5.0.0" %}
+{% set version = "5.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 404c8480024758b537bed723070c64eef695de557ad470b43161dbff0aa4c642
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: f291d5c596b0e1fc1e0e1bf819f472503c194a4ae3dfdd35b5b4c0a3bb67c101
 
 build:
   noarch: python
